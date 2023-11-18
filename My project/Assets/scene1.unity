@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 2158.1936, g: 2261.5334, b: 3283.1997, a: 1}
+  m_IndirectSpecularColor: {r: 2170.1292, g: 2285.0706, b: 3348.6138, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -11612,11 +11612,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_System: {fileID: 865608330}
-  m_MoveSpeed: 100
+  m_MoveSpeed: 10
   m_EnableStrafe: 1
   m_EnableFly: 0
   m_UseGravity: 1
-  m_GravityApplicationMode: 0
+  m_GravityApplicationMode: 1
   m_ForwardSource: {fileID: 0}
   m_LeftHandMoveAction:
     m_UseReference: 1
@@ -30950,10 +30950,20 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4520365743130915996, guid: a84b751a51f3247f28f30f2146fc265b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 5234781666179310466, guid: a84b751a51f3247f28f30f2146fc265b,
         type: 3}
       propertyPath: m_Name
       value: parentLivre
+      objectReference: {fileID: 0}
+    - target: {fileID: 5234781666179310466, guid: a84b751a51f3247f28f30f2146fc265b,
+        type: 3}
+      propertyPath: m_TagString
+      value: livre
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
