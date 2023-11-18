@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 2160.4377, g: 2264.0237, b: 3286.692, a: 1}
+  m_IndirectSpecularColor: {r: 2158.1936, g: 2261.5334, b: 3283.1997, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8888,7 +8888,7 @@ PrefabInstance:
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17571,7 +17571,6 @@ Transform:
   - {fileID: 1270523048}
   - {fileID: 1554789650}
   - {fileID: 1893432474}
-  - {fileID: 1797391360}
   - {fileID: 589231732}
   - {fileID: 1741348440}
   - {fileID: 143630584}
@@ -25398,73 +25397,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09191fb08393ccf4291d1be49a262339, type: 3}
---- !u!1001 &1797391359
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1256860729}
-    m_Modifications:
-    - target: {fileID: 152408, guid: 9ffce38584b432f48ab23b0733ce9853, type: 3}
-      propertyPath: m_Name
-      value: SM_Bld_Spire_01
-      objectReference: {fileID: 0}
-    - target: {fileID: 152408, guid: 9ffce38584b432f48ab23b0733ce9853, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 417310, guid: 9ffce38584b432f48ab23b0733ce9853, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 392.85275
-      objectReference: {fileID: 0}
-    - target: {fileID: 417310, guid: 9ffce38584b432f48ab23b0733ce9853, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -4.058642
-      objectReference: {fileID: 0}
-    - target: {fileID: 417310, guid: 9ffce38584b432f48ab23b0733ce9853, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 573.4579
-      objectReference: {fileID: 0}
-    - target: {fileID: 417310, guid: 9ffce38584b432f48ab23b0733ce9853, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 417310, guid: 9ffce38584b432f48ab23b0733ce9853, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 417310, guid: 9ffce38584b432f48ab23b0733ce9853, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 417310, guid: 9ffce38584b432f48ab23b0733ce9853, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 417310, guid: 9ffce38584b432f48ab23b0733ce9853, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 417310, guid: 9ffce38584b432f48ab23b0733ce9853, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 417310, guid: 9ffce38584b432f48ab23b0733ce9853, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 9ffce38584b432f48ab23b0733ce9853, type: 3}
---- !u!4 &1797391360 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 417310, guid: 9ffce38584b432f48ab23b0733ce9853,
-    type: 3}
-  m_PrefabInstance: {fileID: 1797391359}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1806262830
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30888,8 +30820,7 @@ PrefabInstance:
       propertyPath: m_RotationInput.m_Action.m_Name
       value: Rotation Input
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 6684391995438898292, guid: 2fae6ed45348e6d43978994f2c17ccad, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 2419735415647223491, guid: 2fae6ed45348e6d43978994f2c17ccad,
