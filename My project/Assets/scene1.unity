@@ -3715,6 +3715,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Joueur
       objectReference: {fileID: 0}
+    - target: {fileID: 2831360513365206328, guid: 2fae6ed45348e6d43978994f2c17ccad,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5369277193392720598, guid: 2fae6ed45348e6d43978994f2c17ccad,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5880019894318997913, guid: 2fae6ed45348e6d43978994f2c17ccad,
         type: 3}
       propertyPath: m_LocalPosition.x
