@@ -267,7 +267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6803edce0201f574f923fd9d10e5b30a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 0}
+  m_InteractionManager: {fileID: 211531138837168624}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -1458,7 +1458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6803edce0201f574f923fd9d10e5b30a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 0}
+  m_InteractionManager: {fileID: 211531138837168624}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -1901,7 +1901,7 @@ GameObject:
   - component: {fileID: 3476051189482656685}
   - component: {fileID: 6930641074022076293}
   - component: {fileID: 8307328922216879260}
-  - component: {fileID: 7356469406085671590}
+  - component: {fileID: 4750640659677114361}
   m_Layer: 0
   m_Name: Locomotion System
   m_TagString: Untagged
@@ -2028,7 +2028,7 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: -8198699208435500284, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
---- !u!114 &7356469406085671590
+--- !u!114 &4750640659677114361
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2037,7 +2037,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4507980402076375065}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bec5a17b774646e4b971c273751bcac1, type: 3}
+  m_Script: {fileID: 11500000, guid: 623ed1d99ee26e54095ad25b427a749f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   jumpButton:
@@ -2046,7 +2046,7 @@ MonoBehaviour:
       m_Name: Jump Button
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 080a538d-92ef-4328-a2ae-0422cc6e8090
+      m_Id: b45015df-9a70-4cbc-9759-6c8ae10d7cd3
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -2054,7 +2054,7 @@ MonoBehaviour:
     m_Reference: {fileID: -6812288250038899451, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
   jumpHeight: 3
-  joueur: {fileID: 0}
+  joueur: {fileID: 3050766212170906580}
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
