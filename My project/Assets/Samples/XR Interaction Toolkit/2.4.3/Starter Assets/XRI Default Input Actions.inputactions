@@ -703,7 +703,7 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "saut",
+                    "name": "Saut",
                     "type": "Button",
                     "id": "339088bb-2937-4c9c-acf0-6c636b7336cc",
                     "expectedControlType": "Button",
@@ -863,7 +863,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Generic XR Controller",
-                    "action": "saut",
+                    "action": "Saut",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -1437,6 +1437,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "Saut",
+                    "type": "Button",
+                    "id": "5133d5a9-781a-4533-bedd-4ecab1708762",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -1580,6 +1589,17 @@
                     "processors": "",
                     "groups": "Generic XR Controller",
                     "action": "UI Scroll",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "94258d47-106d-413a-9292-df5585bdcad2",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Saut",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
