@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 public class jump : MonoBehaviour
 {
     [SerializeField] private InputActionProperty jumpButton;
-    [SerializeField] private float jumpHeight = 3f;
+    public float jumpHeight = 3f;
     [SerializeField] private CharacterController joueur;
     [SerializeField] private LayerMask groundLayer;
 
@@ -28,7 +28,7 @@ public class jump : MonoBehaviour
     }
 
 
-    private void Jump()
+    public void Jump()
     {
         mouvement.y = Mathf.Sqrt(jumpHeight * -3.0f * gravity); 
     }
@@ -37,4 +37,24 @@ public class jump : MonoBehaviour
     {
         return Physics.CheckSphere(transform.position, 0.2f, groundLayer); 
     }
+
+    private void OnTriggerEnter(Collider other){
+        if (other.tag == "espace")
+        {
+            //Le joueur est plus leger
+            jumpHeight = 15f;
+        
+        }
+
+    }
+
+    private void OnTriggerExit(Collider other){
+     if (other.tag == "espace")
+        {
+            jumpHeight = 3f;
+        }
+
+    }
+
+
 }
