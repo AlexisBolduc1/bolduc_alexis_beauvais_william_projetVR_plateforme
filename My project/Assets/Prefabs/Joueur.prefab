@@ -1901,7 +1901,6 @@ GameObject:
   - component: {fileID: 3476051189482656685}
   - component: {fileID: 6930641074022076293}
   - component: {fileID: 8307328922216879260}
-  - component: {fileID: 4750640659677114361}
   m_Layer: 0
   m_Name: Locomotion System
   m_TagString: Untagged
@@ -2028,36 +2027,6 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: -8198699208435500284, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
---- !u!114 &4750640659677114361
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4507980402076375065}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 623ed1d99ee26e54095ad25b427a749f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jumpButton:
-    m_UseReference: 1
-    m_Action:
-      m_Name: Jump Button
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: b45015df-9a70-4cbc-9759-6c8ae10d7cd3
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: -6812288250038899451, guid: c348712bda248c246b8c49b3db54643f,
-      type: 3}
-  jumpHeight: 3
-  joueur: {fileID: 3050766212170906580}
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 64
 --- !u!1 &4798061596017245278
 GameObject:
   m_ObjectHideFlags: 0
@@ -2262,6 +2231,7 @@ GameObject:
   - component: {fileID: 3050766212170906580}
   - component: {fileID: 7981206742357211109}
   - component: {fileID: 8995129329159622944}
+  - component: {fileID: 8455087880588555926}
   m_Layer: 0
   m_Name: XR Origin (XR Rig)
   m_TagString: Untagged
@@ -2372,3 +2342,33 @@ MonoBehaviour:
   count: 0
   skydefault: {fileID: 0}
   skyville: {fileID: 0}
+--- !u!114 &8455087880588555926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9194061280479770831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 623ed1d99ee26e54095ad25b427a749f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpButton:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Jump Button
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: b45015df-9a70-4cbc-9759-6c8ae10d7cd3
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -6812288250038899451, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  jumpHeight: 3
+  joueur: {fileID: 3050766212170906580}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 2164.0725, g: 2273.5823, b: 3317.0552, a: 1}
+  m_IndirectSpecularColor: {r: 2183.0383, g: 2326.9182, b: 3490.4927, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3840,10 +3840,15 @@ PrefabInstance:
       propertyPath: skydefault
       value: 
       objectReference: {fileID: 157207112}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4750640659677114361, guid: 2fae6ed45348e6d43978994f2c17ccad, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 9194061280479770831, guid: 2fae6ed45348e6d43978994f2c17ccad,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2045016542}
   m_SourcePrefab: {fileID: 100100000, guid: 2fae6ed45348e6d43978994f2c17ccad, type: 3}
 --- !u!1001 &264448032
 PrefabInstance:
@@ -30527,6 +30532,42 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1c504ee881ba424cba2f7036671aa45, type: 3}
+--- !u!1 &2045016536 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9194061280479770831, guid: 2fae6ed45348e6d43978994f2c17ccad,
+    type: 3}
+  m_PrefabInstance: {fileID: 262292833}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2045016542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045016536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 623ed1d99ee26e54095ad25b427a749f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpButton:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Jump Button
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: b45015df-9a70-4cbc-9759-6c8ae10d7cd3
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -6812288250038899451, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  jumpHeight: 3
+  joueur: {fileID: 717932844}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 72
 --- !u!4 &2053896003 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 418456, guid: 32e12bfff36b3254ab61e5799485ddf6,
