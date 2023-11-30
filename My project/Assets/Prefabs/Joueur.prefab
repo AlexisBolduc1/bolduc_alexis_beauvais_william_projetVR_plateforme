@@ -2333,8 +2333,6 @@ MonoBehaviour:
   skyantartique: {fileID: 0}
   skysousleau: {fileID: 0}
   Joueur: {fileID: 0}
-  cameraTransform: {fileID: 0}
-  shakeFrequency: 0
 --- !u!114 &8455087880588555926
 MonoBehaviour:
   m_ObjectHideFlags: 0
