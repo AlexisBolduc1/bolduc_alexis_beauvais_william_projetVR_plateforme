@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
 
+
+
 public class joueur : MonoBehaviour
 {
     public int count;
@@ -16,6 +18,7 @@ public class joueur : MonoBehaviour
     jump joump;
     public GameObject Joueur;
 
+
     
 
     
@@ -24,6 +27,7 @@ private void OnTriggerEnter(Collider other){
         {
             skyville.SetActive(true);
             skydefault.SetActive(false);
+            
         
         }else if (other.tag == "desert")
         {
@@ -48,6 +52,9 @@ private void OnTriggerExit(Collider other){
         {
             skyville.SetActive(false);
             skydefault.SetActive(true);
+            //Arrete Shake la camera
+            
+
         }else if (other.tag == "desert")
         {
             skydesert.SetActive(false);
@@ -62,6 +69,7 @@ private void OnTriggerExit(Collider other){
 
 
     }
+
 
 
 }

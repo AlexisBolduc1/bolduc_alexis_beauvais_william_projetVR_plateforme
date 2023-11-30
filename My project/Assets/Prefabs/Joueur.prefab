@@ -945,10 +945,10 @@ MonoBehaviour:
   m_PositionInput:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Position Input
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: a498fc86-ad48-421c-b36d-25da26a74b9b
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -957,10 +957,10 @@ MonoBehaviour:
   m_RotationInput:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Rotation Input
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: c49a6ffd-e550-4a5c-babf-9af676d079da
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -2333,6 +2333,8 @@ MonoBehaviour:
   skyantartique: {fileID: 0}
   skysousleau: {fileID: 0}
   Joueur: {fileID: 0}
+  cameraTransform: {fileID: 0}
+  shakeFrequency: 0
 --- !u!114 &8455087880588555926
 MonoBehaviour:
   m_ObjectHideFlags: 0
