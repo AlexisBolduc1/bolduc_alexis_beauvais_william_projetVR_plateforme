@@ -38,11 +38,8 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-<<<<<<< HEAD
   m_IndirectSpecularColor: {r: 2158.589, g: 2261.7288, b: 3283.0278, a: 1}
-=======
   m_IndirectSpecularColor: {r: 2148.7834, g: 2369.676, b: 3813.4692, a: 1}
->>>>>>> 776ce8d7f40edbd09e76a3cced241356ac6b3033
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -10947,7 +10944,6 @@ Transform:
   - {fileID: 269180833}
   - {fileID: 1871412563}
   - {fileID: 88588795}
-<<<<<<< HEAD
   - {fileID: 833791365}
   - {fileID: 389971323}
   - {fileID: 1843738027}
@@ -10956,9 +10952,7 @@ Transform:
   - {fileID: 1929454601}
   - {fileID: 154407713}
   - {fileID: 2007695761}
-=======
   - {fileID: 1693836654}
->>>>>>> 776ce8d7f40edbd09e76a3cced241356ac6b3033
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &601064022
@@ -24814,10 +24808,8 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 423826684}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
 --- !u!1 &1277116375
 GameObject:
-=======
 --- !u!1 &1289895361 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 199508, guid: a4a36f473384c3c489b6458561ff07ac,
@@ -24832,12 +24824,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 --- !u!65 &1289895363
 BoxCollider:
->>>>>>> 776ce8d7f40edbd09e76a3cced241356ac6b3033
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1277116379}
@@ -24858,9 +24848,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1277116375}
-=======
   m_GameObject: {fileID: 1289895361}
->>>>>>> 776ce8d7f40edbd09e76a3cced241356ac6b3033
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -24869,7 +24857,6 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-<<<<<<< HEAD
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -24942,14 +24929,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -89.523, y: 0, z: 0}
-=======
   m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.33155823, y: 0.2020936, z: 0.28714752}
   m_Center: {x: 0, y: 0.1010468, z: -0.0000038146973}
->>>>>>> 776ce8d7f40edbd09e76a3cced241356ac6b3033
 --- !u!1001 &1290106819
 PrefabInstance:
   m_ObjectHideFlags: 0
