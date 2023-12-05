@@ -42,7 +42,7 @@ public class jump : MonoBehaviour
         if (other.tag == "espace")
         {
             //Le joueur est plus leger
-            jumpHeight = 15f;
+            jumpHeight = 100f;
         
         }
 
@@ -51,7 +51,7 @@ public class jump : MonoBehaviour
     private void OnTriggerExit(Collider other){
      if (other.tag == "espace")
         {
-            jumpHeight = 3f;
+            jumpHeight = 20f;
         }
 
     }
