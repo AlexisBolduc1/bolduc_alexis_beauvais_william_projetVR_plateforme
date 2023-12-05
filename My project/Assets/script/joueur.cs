@@ -15,6 +15,7 @@ public class joueur : MonoBehaviour
     public GameObject skyespace;
     public GameObject skyantartique;
     public GameObject skysousleau;
+    public GameObject montagnedesert;
     float m_FieldOfView;
     jump joump;
     public GameObject Joueur;
@@ -53,10 +54,13 @@ private void OnTriggerExit(Collider other){
         {
             other.gameObject.SetActive(false);
             countburger ++;
+            if (countburger == 4)
+        {
+            montagnedesert.SetActive(false);
             
             
 
-        }else if (other.tag == "ville")
+        }}else if (other.tag == "ville")
         {
             skyville.SetActive(false);
             skydefault.SetActive(true);
