@@ -8,6 +8,9 @@ TagManager:
   - ville
   - cactus
   - burger
+  - desert
+  - antartique
+  - espace
   layers:
   - Default
   - TransparentFX

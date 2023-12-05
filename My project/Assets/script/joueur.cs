@@ -41,6 +41,10 @@ private void OnTriggerEnter(Collider other){
         {
             skyespace.SetActive(true);
             skydefault.SetActive(false);
+        }else if (other.tag == "antartique")
+        {
+            skyantartique.SetActive(true);
+            skydefault.SetActive(false);
         }
 
     }
@@ -75,6 +79,10 @@ private void OnTriggerExit(Collider other){
         }else if (other.tag == "espace")
         {
             skyespace.SetActive(false);
+            skydefault.SetActive(true);
+        }else if (other.tag == "antartique")
+        {
+            skyantartique.SetActive(false);
             skydefault.SetActive(true);
         }
 
