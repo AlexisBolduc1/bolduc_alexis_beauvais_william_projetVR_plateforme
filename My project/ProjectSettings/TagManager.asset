@@ -6,6 +6,8 @@ TagManager:
   tags:
   - livre
   - ville
+  - cactus
+  - burger
   layers:
   - Default
   - TransparentFX

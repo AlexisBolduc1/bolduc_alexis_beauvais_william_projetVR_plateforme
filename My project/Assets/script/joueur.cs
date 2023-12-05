@@ -8,6 +8,7 @@ using UnityEngine.Video;
 public class joueur : MonoBehaviour
 {
     public int count;
+    public int countburger;
     public GameObject skydefault;
     public GameObject skyville;
     public GameObject skydesert;
@@ -48,11 +49,18 @@ private void OnTriggerExit(Collider other){
     {
         other.gameObject.SetActive(false);
         count ++;
-    }else if (other.tag == "ville")
+    }else if (other.tag == "burger")
+        {
+            other.gameObject.SetActive(false);
+            countburger ++;
+            
+            
+
+        }else if (other.tag == "ville")
         {
             skyville.SetActive(false);
             skydefault.SetActive(true);
-            //Arrete Shake la camera
+
             
 
         }else if (other.tag == "desert")
