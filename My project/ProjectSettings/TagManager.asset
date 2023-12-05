@@ -6,6 +6,11 @@ TagManager:
   tags:
   - livre
   - ville
+  - cactus
+  - burger
+  - desert
+  - antartique
+  - espace
   layers:
   - Default
   - TransparentFX

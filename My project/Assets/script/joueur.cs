@@ -8,12 +8,14 @@ using UnityEngine.Video;
 public class joueur : MonoBehaviour
 {
     public int count;
+    public int countburger;
     public GameObject skydefault;
     public GameObject skyville;
     public GameObject skydesert;
     public GameObject skyespace;
     public GameObject skyantartique;
     public GameObject skysousleau;
+    public GameObject montagnedesert;
     float m_FieldOfView;
     jump joump;
     public GameObject Joueur;
@@ -39,6 +41,10 @@ private void OnTriggerEnter(Collider other){
         {
             skyespace.SetActive(true);
             skydefault.SetActive(false);
+        }else if (other.tag == "antartique")
+        {
+            skyantartique.SetActive(true);
+            skydefault.SetActive(false);
         }
 
     }
@@ -48,11 +54,21 @@ private void OnTriggerExit(Collider other){
     {
         other.gameObject.SetActive(false);
         count ++;
-    }else if (other.tag == "ville")
+    }else if (other.tag == "burger")
+        {
+            other.gameObject.SetActive(false);
+            countburger ++;
+            if (countburger == 4)
+        {
+            montagnedesert.SetActive(false);
+            
+            
+
+        }}else if (other.tag == "ville")
         {
             skyville.SetActive(false);
             skydefault.SetActive(true);
-            //Arrete Shake la camera
+
             
 
         }else if (other.tag == "desert")
@@ -63,6 +79,10 @@ private void OnTriggerExit(Collider other){
         }else if (other.tag == "espace")
         {
             skyespace.SetActive(false);
+            skydefault.SetActive(true);
+        }else if (other.tag == "antartique")
+        {
+            skyantartique.SetActive(false);
             skydefault.SetActive(true);
         }
 
