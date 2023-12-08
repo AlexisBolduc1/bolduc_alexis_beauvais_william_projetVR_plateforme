@@ -29,22 +29,46 @@ private void OnTriggerEnter(Collider other){
         {
             skyville.SetActive(true);
             skydefault.SetActive(false);
+            skydesert.SetActive(false);
+            skyespace.SetActive(false);
+            skyantartique.SetActive(false);
+            skysousleau.SetActive(false);
             
         
         }else if (other.tag == "desert")
         {
             skydesert.SetActive(true);
             skydefault.SetActive(false);
+            skyville.SetActive(false);
+            skyespace.SetActive(false);
+            skyantartique.SetActive(false);
+            skysousleau.SetActive(false);
             //Camera champ de vision rétréci
             Camera.main.fieldOfView = 30.0f;
         }else if (other.tag == "espace")
         {
             skyespace.SetActive(true);
             skydefault.SetActive(false);
+            skyville.SetActive(false);
+            skydesert.SetActive(false);
+            skyantartique.SetActive(false);
+            skysousleau.SetActive(false);
         }else if (other.tag == "antartique")
         {
             skyantartique.SetActive(true);
             skydefault.SetActive(false);
+            skyville.SetActive(false);
+            skydesert.SetActive(false);
+            skyespace.SetActive(false);
+            skysousleau.SetActive(false);
+        }else if (other.tag == "eau")
+        {
+            skysousleau.SetActive(true);
+            skydefault.SetActive(false);
+            skyville.SetActive(false);
+            skydesert.SetActive(false);
+            skyespace.SetActive(false);
+            skyantartique.SetActive(false);
         }
 
     }
@@ -83,6 +107,10 @@ private void OnTriggerExit(Collider other){
         }else if (other.tag == "antartique")
         {
             skyantartique.SetActive(false);
+            skydefault.SetActive(true);
+        }else if (other.tag == "eau")
+        {
+            skysousleau.SetActive(false);
             skydefault.SetActive(true);
         }
 
