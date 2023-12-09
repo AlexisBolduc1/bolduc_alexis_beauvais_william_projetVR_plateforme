@@ -10,10 +10,10 @@ public class chargementscenefin : MonoBehaviour
 
     public void onPress()
     {
-        StartCoroutine("chargerNiveau");
+        StartCoroutine("chargerNiveau2");
     }
 
-    IEnumerator chargerNiveau()
+    IEnumerator chargerNiveau2()
     {
 
         canvas.SetTrigger("debut");
