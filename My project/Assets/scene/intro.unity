@@ -922,7 +922,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Il y'en a un de cacher par niveau, \nvous devez donc en r\xE9cup\xE9rer
-    5 au total pour tous les ramasser."
+    6 au total pour tous les ramasser."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
